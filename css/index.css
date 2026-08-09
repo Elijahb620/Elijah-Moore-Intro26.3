@@ -1,0 +1,27 @@
+body {
+    background-color: #333;
+    color: #f4f4f4;
+    font-family:"Bitcount Prop Single", system-ui;
+    font-weight: 400;
+    font-size:x-large
+}
+a {
+    color: khaki;
+}
+h1{
+    margin-left: 50px;
+}
+
+#connectHeading{
+    margin-bottom:5px;
+}
+
+.sectionHeading{
+    width:fit-content;
+    color:rgb(209, 208, 162);
+    border-color:#bd9617;
+    border-width:6px;
+    border-style: dotted;
+    padding:10px;
+}
+
