@@ -1,19 +1,48 @@
 body {
-    background-color: #333;
-    color: #f4f4f4;
-    font-family:"Bitcount Prop Single", system-ui;
-    font-weight: 400;
-    font-size:x-large
+    background-color: #4F3010;
+    margin:0;
+    color: #fff1cb;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-size:large;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 a {
     color: khaki;
 }
 h1{
+    font-family:"Bitcount Prop Single", system-ui;
+    text-align:center;
+    margin-left: 50px;
+    font-weight:400;
+}
+
+h2{
+    font-family:"Bitcount Prop Single", system-ui;
+    font-weight:300;
     margin-left: 50px;
 }
 
 #connectHeading{
     margin-bottom:5px;
+}
+
+#connectLinks{
+    display:flex;
+    margin:10px;
+}
+
+#connectLinks > a{
+    padding:5px;
+    padding-bottom:0;
+    margin-right:5px;
+
+    border-color:#bd9617;
+    border-width:2;
+    border-style:solid;
+    width:fit-content;
 }
 
 .sectionHeading{
@@ -23,5 +52,60 @@ h1{
     border-width:6px;
     border-style: dotted;
     padding:10px;
+    margin-top:50px;
+    margin-left:10px;
+
 }
 
+.header{
+    background-color: #824300;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    margin-top:20px;
+}
+.main{
+    margin-left:10px;
+}
+
+/* Container for individual experiences */
+.indExperience{
+    display:flex;
+    margin-bottom:10px;
+    flex-wrap:wrap;
+    width:800px;
+}
+
+.experienceTitle{
+    font-weight:bold;
+    font-size:24px;
+    padding-right:10px;
+    margin-bottom:5px;
+}
+.experienceDates{
+    font-style:italic;
+    font-size: 16px;
+}
+ .experienceDesc{
+
+    margin-bottom:10px;
+ }
+
+.navbar{
+    display: flex;
+    background-color:#4F3010;
+    justify-content: space-around;
+    border-color:#bd9617;
+    border-width:2;
+    border-style:solid;
+
+    position:fixed;
+    top:0;
+    width:75%;
+}
+.navbar > div{
+    border-color:#4F3010;
+    border-width:1;
+    border-style:solid;
+    padding:5px 10px;;
+}
