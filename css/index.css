@@ -81,7 +81,7 @@ h2{
     display:flex;
     margin-bottom:10px;
     flex-wrap:wrap;
-    width:800px;
+    width:100%;
 
 }
 
@@ -99,6 +99,18 @@ h2{
  .experienceDesc{
 
     margin-bottom:10px;
+ }
+ .row{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:100%;
+ }
+ .column{
+    display:flex;
+    flex-direction: column;
+    flex-basis:100%;
+    flex: 1;
  }
 
 .navbar{
@@ -120,4 +132,13 @@ h2{
     border-width:1;
     border-style:solid;
     padding:5px 10px;;
+}
+
+#Skills > ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:25px;
+    width:100%;
+    font-weight:bold;
 }
