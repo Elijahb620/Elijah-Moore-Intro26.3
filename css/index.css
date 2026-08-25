@@ -144,19 +144,20 @@ h2{
     font-weight:bold;
 }
 
-#Leave_a_Message > label{
-    padding: 50px;
-    margin: 50px;
+#Leave_a_Message > form > label{
+    padding: 10px;
+    margin: 10px;
 }
 
 #Leave_a_Message > form{
     display: flex;
-    flex-direction: row;
-    padding-left:10px;
+    flex-direction: column;
+    width:25%;
+    padding:10px;
     margin: 50px;
 }
 #Leave_a_Message > form > button{
-    size: 25px;
-    padding:25px;
-    margin-left: 25px;
+    size: 10px;
+    padding:20px;
+    margin: 25px;
 }
