@@ -7,6 +7,7 @@
         <link href="css/index.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
         
     </head>
     <body>
@@ -18,6 +19,7 @@
             <div><a href="#Skills">Skills</a></div>
             <div><a href="#Projects">Projects</a></div>
             <div><a href="#Connect">Connect</a></div>
+            <div><a href="#Leave a Message">Leave a Message</a></div>
             </nav>
             <img src="pictures\6T5A7330.jpg" alt="Elijah Headshot" width="200" height="300">
         </div>
@@ -84,11 +86,36 @@
         <section id="Connect">
             <h2 class="sectionHeading" id="connectHeading">Connect</h2>
             <div id="connectLinks">
-            <a href="https://www.instagram.com/elijah.b.moore/?hl=en" target="_blank" rel="noopener noreferrer"><img src="pictures/insta logo.jpg" alt="Instagram" style="width:42px;height:42px;"></a>
-            <a href="https://www.linkedin.com/in/elijahm/" target="_blank" rel="noopener noreferrer"><img src="pictures/linkedin logo.png" alt="Linkedin" style="width:42px;height:42px;"></a>
+                <a href="https://www.instagram.com/elijah.b.moore/?hl=en" target="_blank" rel="noopener noreferrer"><img src="pictures/insta logo.jpg" alt="Instagram" style="width:42px;height:42px;"></a>
+                <a href="https://www.linkedin.com/in/elijahm/" target="_blank" rel="noopener noreferrer"><img src="pictures/linkedin logo.png" alt="Linkedin" style="width:42px;height:42px;"></a>
             </div>
         </section>
         </div>
+
+        <section id="Leave_a_Message">
+            <h2>Leave a Message</h2>
+            <form name="leave_message">
+                <label for="usersName">Name: </label>
+                <br>
+                <input type="text" name="usersName" required="true">
+                <br>
+                <label for="usersEmail">Email:</label>
+                <br>
+                <input type="email" name="usersEmail" required ="true">
+                <br>
+                <label for="usersMessage">Message: </label>
+                <br>
+                <textarea name="usersMessage" required="true" id="usersMessage"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="messages">
+            <h2>Messages</h2>
+            <ul>
+
+            </ul>
+        </section>
 
         <footer></footer>
 
