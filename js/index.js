@@ -40,7 +40,7 @@ messageForm.addEventListener("submit", function (event) {
         `<a href="mailto:${email}">${name}</a> 
         <span>${message}</span>`;
 
-    messageList.appendChild(newMessage);
+    
 
     let removeButton = document.createElement("button")
     removeButton.innerText = "remove"
@@ -52,6 +52,7 @@ messageForm.addEventListener("submit", function (event) {
     })
 
     newMessage.appendChild(removeButton);
+    messageList.appendChild(newMessage);
     
     let h2 = document.querySelector("#messages h2")
         h2.style.display = "inline"
