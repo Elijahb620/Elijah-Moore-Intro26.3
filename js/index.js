@@ -77,18 +77,18 @@ fetch('https://api.github.com/users/Elijahb620/repos')
         const repositories = data;
         return repositories;
     })
-      .catch(error => console.error(error))
 
     .then(repositories =>{
         let projectSection = document.querySelector("#Projects")
         let projectList = projectSection.querySelector('ul')
 
-        for (i = 0; i < repositories.length; i++) {
+        for (let i = 0; i < repositories.length; i++) {
             let project = document.createElement('li')
             project.innerText = repositories[i].name
             projectList.appendChild(project)
         }
     })
+      .catch(error => console.error(error))
 
 
   
