@@ -161,3 +161,11 @@ h2{
     padding:20px;
     margin: 25px;
 }
+#Projects > ul {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:25px;
+    width:100%;
+    font-weight:bold;
+}

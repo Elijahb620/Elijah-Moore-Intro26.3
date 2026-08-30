@@ -66,4 +66,29 @@ if (!document.querySelector("#messages ul li")) {
     let h2 = document.querySelector("#messages h2")
     h2.style.display = "none"
 }
+fetch('https://api.github.com/users/Elijahb620/repos')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error("Error!")
+        }
+        return response.json()
+    })
+    .then(data => {
+        const repositories = data;
+        return repositories;
+    })
 
+    .then(repositories =>{
+        let projectSection = document.querySelector("#Projects")
+        let projectList = projectSection.querySelector('ul')
+
+        for (let i = 0; i < repositories.length; i++) {
+            let project = document.createElement('li')
+            project.innerText = repositories[i].name
+            projectList.appendChild(project)
+        }
+    })
+      .catch(error => console.error(error))
+
+
+  
