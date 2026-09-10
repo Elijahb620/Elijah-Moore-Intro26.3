@@ -169,3 +169,28 @@ h2{
     width:100%;
     font-weight:bold;
 }
+.openAPIMain {
+    display:flex;
+    flex-wrap:wrap;
+    text-align:center;
+    justify-content: center;
+    background-color:black;
+    height:100%
+}
+.openAPIBox{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    text-align:center;
+    align-content: center;
+    justify-content: center;
+    width:75%;
+
+    background-color:black;
+    border-color:#B527F2;
+    border-width:2px;
+    border-style:solid;
+}
+.openAPIBox > div{
+    text-align:center;
+}
